@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/kelvinmacedo/EstudoNodejsTypescript/issues"
   },
-  "homepage": "https://github.com/kelvinmacedo/EstudoNodejsTypescript#readme"
+  "homepage": "https://github.com/kelvinmacedo/EstudoNodejsTypescript#readme",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "express": "^4.18.2",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
 }
