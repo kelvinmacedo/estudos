@@ -1,21 +1,20 @@
-
 const itens = [
     {    
         id:2,
         nome:"controle Xbox One",
-        img:'../image/controle-xbox-one-preto.jpeg',
+        img:'../../midias/e_commecer/controle-xbox-one-preto.jpeg',
         quantidade:1
     },
     {
         id:21,
         nome:"gameBoy Advance",
-        img:'../image/game-boy-advance-03.jpg',
+        img:'../../midias/e_commecer/game-boy-advance-03.jpg',
         quantidade:1
     },
     {
         id:4,
         nome:"Xbox 1ª Geração",
-        img:'../image/xbox-classico-1-geracao.jpeg',
+        img:'../../midias/e_commecer/xbox-classico-1-geracao.jpeg',
         quantidade:1
     }
 ]
