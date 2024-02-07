@@ -1,0 +1,14 @@
+#produtos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.75rem;
+    background-color: azure;
+    display: flex;
+    padding: 2%;
+    margin: 2%;
+    max-width: 900px;
+    align-items: center;
+
+}
+.item-produto-class{
+    
+}
