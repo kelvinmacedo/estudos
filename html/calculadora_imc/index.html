@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/calculadora_imc/style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <div id="calculadora" class=".container-fluid col-xs-12 p-3">
+        <div id="divFather" class="">
+            <div class="title">
+                <h2 class="card-title text-center">Calculando IMC.</h2>
+            </div>
+            <form>
+                <div class="form-row col-xl-12">
+                    <div class="form-group col-md-12">
+                        <label for="input">Nome</label>
+                        <input type="text" class="form-control" id="nome" name="nome">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="input">Altura</label>
+                            <input type="number" class="form-control" id="altura" name="altura">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="input">Peso</label>
+                            <input type="number" class="form-control" id="peso" name="peso">
+                        </div>
+                    </div>
+                    <div>
+                        <p class="resultado">reulstado</p>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-secondary m-2" onclick="limparForm()">
+                            Limpar
+                        </button>
+                        <button type="button" class="btn btn-primary m-2" onclick="calcular()">
+                            Calcular 
+                        </button>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <h6>@kelvin.marques_max</h6>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

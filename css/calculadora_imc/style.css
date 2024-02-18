@@ -1,0 +1,25 @@
+
+
+#divFather{
+    width: 25rem;
+    height: 33rem;
+    background-color: rgb(253, 165, 165);
+    padding: 5px;
+    border: 2px solid rgba(130, 130, 130, 0.07);
+    border-radius: 8px;
+}
+
+.title{
+    width: 75%;
+    font-family: fredoka ;
+    border-radius: 25px;
+}
+
+h2, label {
+    color: aliceblue;
+}
+
+button{
+    width: 150px;
+    
+}
