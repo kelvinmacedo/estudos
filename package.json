@@ -11,9 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/kelvinmacedo/EstudoNodejsTypescript.git"
   },
-  "keywords": [
-    "@kelvin.max.adm2310#"
-  ],
   "author": "kelvin_marques_max",
   "license": "MIT",
   "bugs": {
