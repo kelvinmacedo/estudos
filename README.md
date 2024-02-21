@@ -1,3 +1,2 @@
-# EstudoNodejsTypescript
-Acompanhe o meu desenvolvimento atraves deste repositorio.
-
+Historico de cada passo do meu aprendizados, tanto erros como acertos.
+Sempre em buscar do apredizado continuo.
