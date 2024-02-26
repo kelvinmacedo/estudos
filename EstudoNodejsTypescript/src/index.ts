@@ -1,3 +1,3 @@
 import { serve } from "./server/serve";
 
-serve.listen(process.env.PORT || 3333, () => console.log('app executando!'));
+serve.listen(process.env.PORT || 3333, () => console.log('app Rodandos.'));

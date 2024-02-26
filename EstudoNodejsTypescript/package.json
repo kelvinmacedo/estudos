@@ -1,0 +1,32 @@
+{
+  "name": "api-rest-node-typescript",
+  "version": "1.0.0",
+  "description": "Acompanhe o meu desenvolvimento atraves deste repositorio.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvinmacedo/EstudoNodejsTypescript.git"
+  },
+  "author": "kelvin_marques_max",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kelvinmacedo/EstudoNodejsTypescript/issues"
+  },
+  "homepage": "https://github.com/kelvinmacedo/EstudoNodejsTypescript#readme",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.2.0",
+    "joi": "^17.12.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
